@@ -12,7 +12,7 @@ jobs:
       - name: simple-coverage-diff
         uses: mtgto/simple-coverage-diff-action@update-comment
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ github.token }}
           base-summary-json: coverage/coverage-summary.json
           head-summary-json: coverage/coverage-summary.json
           body-header: |
