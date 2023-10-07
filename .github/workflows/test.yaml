@@ -15,8 +15,8 @@ jobs:
         uses: mtgto/simple-coverage-diff-action@update-comment
         with:
           github-token: ${{ github.token }}
-          base-summary-json: coverage/coverage-summary.json
-          head-summary-json: coverage/coverage-summary.json
+          base-summary-json: coverage-summary-base.json
+          head-summary-json: coverage-summary-head.json
           body-header: |
             これはヘッダーです
           body-footer: |
