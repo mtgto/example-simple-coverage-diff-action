@@ -21,4 +21,4 @@ jobs:
             これはヘッダーです
           body-footer: |
             これはフッターです
-          update-if-exists: replace
+          update-if-exists: append
